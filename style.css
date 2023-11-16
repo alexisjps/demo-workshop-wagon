@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.link1{
+	background-color: blue;
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.banner {
+	background-image: url('images/background.jpg');
+	padding: 300px 0px;
+	margin: -20px;
+	display: flex;
+	justify-content: center;
+}
+
+.color-white {
+	color: white;
+}
+
+.element-banner {
+	text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	border: 1px solid black;
+	width: 300px;
+	box-shadow: 3px 2px 2px black;
+	border-radius: 20px;
+}
+
+.card img{
+	max-width: 300px;
+	border-radius: 20px;
+}
+
+.subtitle{
+	font-size: 40px;
+}
